@@ -1,4 +1,3 @@
-```markdown
 # 🔗 Solana Geyser gRPC Wallet Subscription (Python) 
 
 It is written in **Python** and uses the official `.proto` files provided by GS Node to interact directly with Solana's `GeyserPlugin`.
