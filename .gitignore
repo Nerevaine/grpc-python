@@ -1,0 +1,10 @@
+# Ignore venv
+venv/
+__pycache__/
+*.pyc
+
+# Ignore generated gRPC files (optional)
+*.pyi
+
+# Ignore logs or misc
+*.log
