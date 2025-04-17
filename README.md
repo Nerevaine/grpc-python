@@ -40,9 +40,7 @@ pip install -r requirements.txt
 ### ✅ Check gRPC Connection
 
 ```bash
-python slot.py \
-  --rpc-fqdn "rpc" \
-  --x-token ""
+python3 slot.py "rpc_endpoint"
 ```
 
 > Should return something like: `slot: 333889597`
@@ -52,8 +50,8 @@ python slot.py \
 ### 📡 Subscribe to Wallet
 
 ```bash
-python subscribe_wallet.py \
-  --endpoint "rpc" \
+python3 subscribe_wallet.py \
+  --endpoint "rpc_endpoint" \
   --wallet-pubkey "66ZC9U8y1uYaAxt4...Zohvi8ev6wBHsAxykh"
 ```
 
